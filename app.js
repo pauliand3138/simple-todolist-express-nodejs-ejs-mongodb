@@ -4,7 +4,7 @@ const date = require(__dirname + "/date.js");
 
 const app = express();
 
-const items = ["Buy Food", "Cook Food", "Eat Food"];
+const items = ["House chores", "Buy Groceries", "Do Exercises"];
 const workItems = [];
 
 app.set("view engine", "ejs");
